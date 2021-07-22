@@ -1,0 +1,2 @@
+# SnapdealAutomationTesting
+SnapdealAutomationTesting
