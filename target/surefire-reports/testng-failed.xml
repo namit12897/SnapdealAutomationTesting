@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="TestNg(failed)" verbose="0">
+    <parameter name="sBrowser" value="chrome"/>
+    <classes>
+      <class name="com.snapdeal.scripts.TestScript1">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="allotment"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.snapdeal.scripts.TestScript1 -->
+    </classes>
+  </test> <!-- TestNg(failed) -->
+</suite> <!-- Failed suite [Suite] -->
